@@ -1118,8 +1118,8 @@ blockquote h6 {
 }
 
 .btn-primary {
-    background-color: #3a79f9;
-    border-color: #3a79f9;
+    background-color: #333;
+    border-color: #333;
     color: #fff;
 }
 
@@ -1421,7 +1421,7 @@ form.ts-labels-inside-input .form-group label.focused,
 }
 
 .ts-item-header .icon .step {
-    background-color: #3a79f9;
+    background-color: #BD849D;
     top: 0;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
     border-radius: 50%;
@@ -2040,12 +2040,12 @@ E. Template Specific Elements
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box {
-    background-color: #3a79f9;
+    background-color: #BD849D;
     color: #fff;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box:after {
-    border-color: #3a79f9 transparent transparent transparent;
+    border-color: #BD849D transparent transparent transparent;
 }
 
 .ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone h5 {
