@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="ThemeStarz">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+    
+	<meta name="author" content="TheIToons">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" type="text/css">
@@ -47,6 +48,10 @@
     width: 8em;
 }
 
+.mb-5 {
+    text-align: left;
+}
+
 #ts-hero, p {
     color: #333;
 }
@@ -59,6 +64,84 @@
     color: #333;
 }
 
+/*Mobile*/
+@media only screen and (max-width: 700px) {
+    .texthero {
+        margin:15em 0em 5em 0em;
+        text-align: center;
+    }
+
+    .texthero p {
+        text-align: center;
+    }
+
+    .navbar {
+        padding-top:0rem;
+        padding-bottom: 0rem;
+    }
+
+    .container {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    p {
+        font-size: 1.3em;
+        line-height: 1.7em;
+    }
+
+    h4 {
+        font-size: 1.425rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .mb-5 {
+        text-align: center;
+    }
+
+    a.btn.btn-primary {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        padding: 0.9em;
+        font-size: 1.5em;
+    }
+
+    a.list-group-item {
+        font-size: 1.2em;
+    }
+
+    section.cta-section .container {
+        padding: 4em 5em;
+    }
+
+    .navbar-brand img {
+    width: 7em;
+    }
+    .ts-background {
+        box-shadow: 0px 0px 15px 0px #542c2c;
+    }
+
+    a.nav-item.nav-link {
+    padding: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    }
+
+    div#navbarNavAltMarkup {
+    padding: 2em 3em 2em 3em;
+    }
+
+    .imagehero img {
+    width: 30em;
+    margin: 0 auto;
+    display: block; 
+    }
+
+}
 
 </style>
 
@@ -104,17 +187,17 @@
 
             <div class="container align-self-center align-items-center">
                 <div class="row align-items-center">
-                    <div class="col-sm-7 col-md-7 d-none d-sm-block">
+                    <div class="col-sm-12 col-md-7 texthero">
                         <h1 data-animate="ts-fadeInUp">Complete Credit Solutions</h1>
                         <div data-animate="ts-fadeInUp" data-delay=".1s">
-                            <p class="w-75 mb-5"><strong>The BEST place for your credit score needs</strong></p>
+                            <p class="mb-5"><strong>The BEST place for your credit score needs</strong></p>
                         </div>
                         <a href="#how-it-works" class="btn btn-primary btn-lg ts-scroll mr-4" data-animate="ts-fadeInUp" data-delay=".2s">
                             Learn More
                             <i class="fa fa-arrow-right small ml-3 ts-opacity__50"></i>
                         </a>
                     </div>
-                    <div class="col-sm-5 offset-lg-1 col-md-4">
+                    <div class="col-sm-12 col-md-5 imagehero">
                         <img src="assets/img/liz.png" alt="">
                     </div>
                 </div>
@@ -279,13 +362,13 @@
                                 <div class="list-group list-group-flush mb-5">
                                     <a href="#collapseOne" class="list-group-item list-group-item-action border-top-0 pl-0 font-weight-bold bg-transparent" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseOne">Our Mission</a>
                                     <div class="collapse" id="collapseOne">
-                                        <p class="pt-3 small">
+                                        <p class="pt-3">
                                             We believe in helping our clients towards credit freedom! People are more than a credit score! And a lot of the times companies report inaccurate information. It’s our job to correct them!
                                         </p>
                                     </div>
                                     <a href="#collapseTwo" class="list-group-item list-group-item-action pl-0 font-weight-bold bg-transparent" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseTwo">We Love Our Clients</a>
                                     <div class="collapse" id="collapseTwo">
-                                        <p class="pt-3 small">
+                                        <p class="pt-3">
                                            	We take a personal approach to every one of our clients. Not every two credit report are the same and we custom every plan to every client. Teaming up is the key to accomplishing goals faster. Let’s do it!
                                         </p>
                                         <!-- <p>
@@ -294,7 +377,7 @@
                                     </div>
                                     <a href="#collapseThree" class="list-group-item list-group-item-action pl-0 font-weight-bold bg-transparent" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseThree">Awards And Wins</a>
                                     <div class="collapse" id="collapseThree">
-                                        <p class="pt-3 small">
+                                        <p class="pt-3">
                                             National Credit Card named us as one of the best personal service for credit repair. Our frequent personal updates help keep my clients out of the dark. We believe our clients should know the progress.
                                         </p>
                                     </div>
